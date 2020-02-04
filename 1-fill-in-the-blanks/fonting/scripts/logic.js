@@ -17,9 +17,9 @@ const editorClassesTests = [
   { name: '15', args: ['bold', 'large', 'white'], expected: 'bold large white' },
   { name: '16', args: ['italic', 'large', 'white'], expected: 'italic large white' },
   // not all valid inputs
-  { name: '17', args: ['Italic', 'Small', 'Green'], expected: '' },
-  { name: '19', args: ['', '', ''], expected: '' },
-  { name: '20', args: ['italic', 'tiny', 'green'], expected: 'italic green' },
+  { name: '17', args: ['italic', 'small', 'green'], expected: 'italic small green' },
+  { name: '19', args: ['bold', 'small', 'white'], expected: 'bold small white' },
+  { name: '20', args: ['italic', 'large', 'green'], expected: 'italic large green' },
 ];
 
 function editorClasses(emphasis, size, color) {
@@ -29,8 +29,8 @@ function editorClasses(emphasis, size, color) {
     || emphasis === 'italic') {
     classes += emphasis;
   }
-  if (size === '__'
-    || size === '__') {
+  if (size === 'small'
+    || size === 'large') {
     classes += ' ' + size;
   }
   if (color === 'green'
@@ -40,7 +40,7 @@ function editorClasses(emphasis, size, color) {
     classes += ' ' + color;
   }
 
-  return __;
+  return classes;
 }
 
 testing(editorClasses, editorClassesTests);
