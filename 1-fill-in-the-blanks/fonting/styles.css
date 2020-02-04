@@ -14,20 +14,25 @@
   font-size: large;
 }
 
-.__ {
+.green {
   color: green;
 }
 
-.__ {
+.blue {
   color: blue;
 }
 
-.__ {
+.red {
   color: red;
 }
 
-.__ {
+.white {
   color: white;
+}
+
+body {
+  padding: 10px;
+  margin: 10px;
 }
 
 .interface {
@@ -37,6 +42,7 @@
   transform: translate(-50%, -50%);
   height: 100vh;
   width: 100vw;
+  
 }
 
 #editor {
