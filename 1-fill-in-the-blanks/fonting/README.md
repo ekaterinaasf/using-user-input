@@ -28,7 +28,15 @@ A user can set the emphasis, size & color of the text they are writing
 
 | class name | description | role |
 | --- | --- | --- |
-| | | |
+|`.bold` | set font styling | make text reflect user's preferences |
+|`.italic`| set font styling |make text reflect user's preferences |
+|`.small` | set font size |make text reflect user's preferences |
+|`.large` |set font size |make text reflect user's preferences |
+|`.green` | set font colour| make text reflect user's preferences|
+|`.blue` |set font colour |make text reflect user's preferences | 
+|`.red` |set font colour |make text reflect user's preferences |
+|`.white` |set font colour | make text reflect user's preferences|
+|`.interface` |set positioning and form size |place form and drop-down menus in a comfortable view |
 
 ## Listeners
 
