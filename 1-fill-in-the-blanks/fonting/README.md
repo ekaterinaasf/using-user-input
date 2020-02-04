@@ -7,22 +7,22 @@ A user can set the emphasis, size & color of the text they are writing
 | tag name | attributes | role |
 | --- | --- | --- |
 | `<section>`  | `id='user-interface' class='interface'` | the section that contains all user interface elements |
-| `<form>` | `id='user-input'| groups user input to be handled with one event |
+| `<form>` | `id='user-input'`| groups user input to be handled with one event |
 | `<select>` | `name="emphasis"` | this is the drop-down menu where user can select what type of emphasis for entered text |
-| `<option>` | `value="none"`  |    |
-| `<option>` | `value="bold"`  |    |
-| `<option>` | `value="italic"` |    |
-| `<select>` | `name="size"`  |    |
-| `<option>` | `value="none"`  |    |
-| `<option>` | `value="small"`  |    |
-| `<option>` | `value="large"`  |    |
-| `<select>` | `name="color"`  |    |
-| `<option>` | `value="none"`  |    |
-| `<option>` | `value="green"`  |    |
-| `<option>` | `value="blue"`  |    |
-| `<option>` | `value="red"`  |    |
-| `<option>` | `value="white"`  |    |
-| `<textarea>`| `id='editor'`  |    |
+| `<option>` | `value="none"`  | a target type for the `editorClasses` function's first argument  |
+| `<option>` | `value="bold"`  | a target type for the `editorClasses` function's first argument  |
+| `<option>` | `value="italic"` | a target type for the `editorClasses` function's first argument  |
+| `<select>` | `name="size"`  | this is the drop-down menu where user can select a size for entered text  |
+| `<option>` | `value="none"`  |  a target type for the `editorClasses` function's second argument  |
+| `<option>` | `value="small"`  | a target type for the `editorClasses` function's second argument   |
+| `<option>` | `value="large"`  |  a target type for the `editorClasses` function's second argument  |
+| `<select>` | `name="color"`  | this is the drop-down menu where user can select a colour for entered text |
+| `<option>` | `value="none"`  | a target type for the `editorClasses` function's third argument   |
+| `<option>` | `value="green"`  | a target type for the `editorClasses` function's third argument   |
+| `<option>` | `value="blue"`  | a target type for the `editorClasses` function's third argument   |
+| `<option>` | `value="red"`  | a target type for the `editorClasses` function's third argument    |
+| `<option>` | `value="white"`  | a target type for the `editorClasses` function's third argument  |
+| `<textarea>`| `id='editor'`  |  area to input user's text and display how applied selected changes  |
 
 ## Styling
 
