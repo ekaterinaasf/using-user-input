@@ -7,11 +7,22 @@ A user can set the emphasis, size & color of the text they are writing
 | tag name | attributes | role |
 | --- | --- | --- |
 | `<section>`  | `id='user-interface' class='interface'` | the section that contains all user interface elements |
-| `<form>` | id='user-input'| groups user input to be handled with one event |
-| `<select>` | name="emphasis" | this is the drop-down menu where user can select what type of emphasis for entered text |
-|  |   |    |
-|  |   |    |
-|  |   |    |
+| `<form>` | `id='user-input'| groups user input to be handled with one event |
+| `<select>` | `name="emphasis"` | this is the drop-down menu where user can select what type of emphasis for entered text |
+| `<option>` | `value="none"`  |    |
+| `<option>` | `value="bold"`  |    |
+| `<option>` | `value="italic"` |    |
+| `<select>` | `name="size"`  |    |
+| `<option>` | `value="none"`  |    |
+| `<option>` | `value="small"`  |    |
+| `<option>` | `value="large"`  |    |
+| `<select>` | `name="color"`  |    |
+| `<option>` | `value="none"`  |    |
+| `<option>` | `value="green"`  |    |
+| `<option>` | `value="blue"`  |    |
+| `<option>` | `value="red"`  |    |
+| `<option>` | `value="white"`  |    |
+| `<textarea>`| `id='editor'`  |    |
 
 ## Styling
 
