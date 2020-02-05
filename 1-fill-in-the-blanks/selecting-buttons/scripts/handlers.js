@@ -1,12 +1,12 @@
 function identifyButton(event) {
   // read & process user input
-  const buttonText = event.target.__;
+  const buttonText = event.target.class.value; //class has the same name as a button title???
 
   // execute core logic
   const centerMessage = generateMessage(buttonText);
 
   // display results to user
-  document.__('__').__ = centerMessage;
+  document.getElementById('center-text').__ = centerMessage;
 
   // log action for developers
   console.log('\n-- identifyButton --');
@@ -36,7 +36,7 @@ function alertButtonName(e) {
   const keyPressed = __.keyCode;
 
   // execute core logic
-  const isEnter = generateMessage(__);
+  const isEnter = generateMessage(keyPressed);
 
   // render results to user
   if (isEnter) {
