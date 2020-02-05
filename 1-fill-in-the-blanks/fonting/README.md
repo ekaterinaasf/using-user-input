@@ -48,11 +48,11 @@ A user can set the emphasis, size & color of the text they are writing
 
 | syntax | parameters | return value | behavior |
 | --- | --- | --- | --- |
-| | | | |
+|`editorClassesHandler(event)`| Event: a user-triggered event | Boolean: should the browser continue as normal? | Reads user input from the event, passes input through core logic, renders result for user, logs action for developer, and alerts the browser 'OK' |
 
 ## Logic
 
 | syntax | parameters | return value | behavior |
 | --- | --- | --- | --- |
-| | | | |
+|`editorClasses(emphasis, size, color)`| `emphasis(_String_)`, `size(_String_)`, `color(_String_)`: the target primitive type| String | It takes in a desired emphasis, size and colour values, and provide css classe that have to be applied for these values |
 
