@@ -1,4 +1,4 @@
-document.getElementById('user-input').addEventListener('keyup', editorClassesHandler);
+document.getElementById('user-input').addEventListener('change', editorClassesHandler);
 //document.getElementById('user-action').addEventListener('click', typeCastHandler);
 //document.getElementById('user-input').addEventListener('keyup', capsLockHandler);
 /* 
