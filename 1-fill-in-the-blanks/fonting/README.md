@@ -42,7 +42,7 @@ A user can set the emphasis, size & color of the text they are writing
 
 | type | attached to | callback |
 | --- | --- | --- |
-| | | |
+| `'keyup'` | `<form id='user-input'>` | `editorClassesHandler` |
 
 ## Handlers
 
