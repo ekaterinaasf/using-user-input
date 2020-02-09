@@ -1,12 +1,14 @@
 function identifyButton(event) {
   // read & process user input
-  const buttonText = event.target.class.value; //class has the same name as a button title???
+  //const buttonText = event.target.class.value; //class has the same name as a button title???
+  const buttonText = event.target.textContent;
+  //const buttonText = event.target.value;//or event.value
 
   // execute core logic
   const centerMessage = generateMessage(buttonText);
 
   // display results to user
-  document.getElementById('center-text').__ = centerMessage;
+  document.getElementById('center-text').innerHTML = centerMessage;//get?? '' ?? inner??
 
   // log action for developers
   console.log('\n-- identifyButton --');
@@ -19,7 +21,7 @@ function identifyButton(event) {
 
 function clearOutput() {
   // execute core logic
-  const centerMessage = __();
+  const centerMessage = keyIsEnter();
 
   // render results to user
   document.getElementById('center-text').innerHTML = centerMessage;
@@ -31,9 +33,10 @@ function clearOutput() {
   return true;
 }
 
+//DO not understand the meaning of this function. Where ae should get var 'e'???
 function alertButtonName(e) {
   // process user event
-  const keyPressed = __.keyCode;
+  const keyPressed = e.keyCode;//added e
 
   // execute core logic
   const isEnter = generateMessage(keyPressed);
