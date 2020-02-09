@@ -10,8 +10,8 @@ const filterColorsTests = [
 
 function filterColors(color) {
   if (color === 'red'
-    || color === 'orange'
-    || color === 'blue'
+ //   || color === 'orange' //for me, they should be presented in the list
+ //   || color === 'blue'
     || color === 'green'
     || color === 'yellow'
     || color === 'black'
