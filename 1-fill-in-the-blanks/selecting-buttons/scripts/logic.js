@@ -11,9 +11,9 @@ const generateMessageTests = [
 
 function generateMessage(text) {
   if (!text) {
-    return __;
+    return ''; //added
   } else {
-    return __ + text;
+    return "selected: \n" + text; //added
   }
 }
 
@@ -32,9 +32,9 @@ const keyIsEnterTests = [
 ];
 
 function keyIsEnter(keyCode) {
-  return keyCode === __
-    ? true
-    : false;
+  return keyCode === 13 //??? keyCode should be a number?? if typeof keyCode == 'number'??
+    ? true //if return keyCode === smth => return true
+    : false; //else return false
 }
 
 testing(keyIsEnter, keyIsEnterTests);
