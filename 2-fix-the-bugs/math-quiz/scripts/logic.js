@@ -6,14 +6,15 @@ const doMathTests = [
   { name: 'fifth', args: ['toad', 4, 5], expected: 'invalid operation' },
 ];
 
+//there were incorrect operation values
 function doMath(op, a, b) {
   if (op === 'add') {
     return a + b;
-  } else if (op === 'sub') {
+  } else if (op === 'subtract') {
     return a - b;
-  } else if (op === 'mul') {
+  } else if (op === 'multiply') {
     return a * b;
-  } else if (op === 'div') {
+  } else if (op === 'divide') {
     return a / b;
   } else {
     return 'invalid operation';
