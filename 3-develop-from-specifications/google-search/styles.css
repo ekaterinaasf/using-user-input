@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+}
+  
+.formulaire {
+    display: inline-block;
+}
+
+.user-input {
+    margin-top: 20px;
+    width: 40vw;
+}
