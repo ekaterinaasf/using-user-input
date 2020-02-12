@@ -14,15 +14,31 @@ const typeCasterTests = [
 ];
 
 function typeCaster(value, type) {
-  if (type !== 'string') {
+  switch(type) {
+    case 'string':
+      return String(value);
+      console.log('String value');
+      break;
+    case 'number':
+      return Number(value);
+      console.log('Number value');
+      break;
+    case 'boolean':
+      return Boolean(value);
+      break;
+    default:
+      return undefined;
+  }
+  /*
+  if (type === 'string') {
     return String(value);
-  } else if (type !== 'number') {
+  } else if (type === 'number') {
     return Number(value);
-  } else if (type !== 'boolean') {
+  } else if (type === 'boolean') {
     return Boolean(value);
   } else {
     return undefined;
-  }
+  } */
 }
 
 testing(typeCaster, typeCasterTests);
