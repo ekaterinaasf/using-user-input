@@ -1,0 +1,18 @@
+.failing {
+    background-color: red;
+}
+
+.passing {
+    background-color: rgb(34, 161, 9);
+}
+
+.inputs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#user-interface {
+    padding: 15px;
+
+}

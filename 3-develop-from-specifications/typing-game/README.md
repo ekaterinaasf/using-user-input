@@ -15,8 +15,8 @@ A user can practice their typing skills by entering text in the upp visible()) f
 
 | class name | description | role |
 | --- | --- | --- |
-| `.failing` | colors the background | visually cues the uers their input doesn't match the hidden phrase |
-| `.passing` | colors the background | visually cues the uers their input does match the hidde phrase |
+| `.failing` | colors the background | visually cues the users their input doesn't match the hidden phrase |
+| `.passing` | colors the background | visually cues the users their input does match the hidden phrase |
 | `.inputs` | centers & columns children elements | aligns the user input fields |
 | (id) `#user-interface` | positions & scales the root user interface element | makes sure the pass/fail coloring covers the entire user interface |
 
@@ -31,7 +31,7 @@ A user can practice their typing skills by entering text in the upp visible()) f
 
 | syntax | parameters | return value | behavior |
 | --- | --- | --- | --- |
-| `doTheyMatch(Event)` | _Event_: a user generated event | _Boolean_: true | reads uer input from the event, executes core logic on user inputs, updates the className of the user-interface to indicate passing/failing, logs action for developers |
+| `doTheyMatch(Event)` | _Event_: a user generated event | _Boolean_: true | reads user input from the event, executes core logic on user inputs, updates the className of the user-interface to indicate passing/failing, logs action for developers |
 
 ## Logic
 
