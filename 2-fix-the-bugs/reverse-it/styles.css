@@ -1,1 +1,12 @@
 /* style me! */
+.input-field {
+    padding: 10px;
+    margin: 10px;
+    background-color: aquamarine;
+}
+
+#user-action {
+    padding: 9px;
+    background-color: cadetblue;
+    font-weight: bold;
+}
