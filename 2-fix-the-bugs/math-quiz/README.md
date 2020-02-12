@@ -20,23 +20,25 @@ A user can study math in JS by entering an expression and testing their predicti
 
 | class name | description | role |
 | --- | --- | --- |
-| | | |
+|`.input-field` | apply predefined width| to make input field more visible|
 
 ## Listeners
 
 | type | attached to | callback |
 | --- | --- | --- |
-| | | |
+|`'mouseover'` | `'user-action'`| showResult |
+|`'mouseover'`|`'user-action'` | hideResult |
 
 ## Handlers
 
 | syntax | parameters | return value | behavior |
 | --- | --- | --- | --- |
-| | | | |
+|`showResult()` | Event: a user-triggered event|Boolean: should the browser continue as normal? |Show the result of calculation when mouse is over the paragraph |
+|`hideResult()` |Event: a user-triggered event |Boolean: should the browser continue as normal? | Hide the result of calculation when mouse is out of the paragraph|
 
 ## Logic
 
 | syntax | parameters | return value | behavior |
 | --- | --- | --- | --- |
-| | | | |
+|`doMath(op, a, b)` |`op(_String_), a(_Number_), b(_Number_)` | _Number_| It takes in a desired operation and two values, and return the result of this operation above these values.|
 
