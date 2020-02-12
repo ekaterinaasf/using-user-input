@@ -27,7 +27,7 @@ A user can study math in JS by entering an expression and testing their predicti
 | type | attached to | callback |
 | --- | --- | --- |
 |`'mouseover'` | `'user-action'`| showResult |
-|`'mouseover'`|`'user-action'` | hideResult |
+|`'mouseout'`|`'user-action'` | hideResult |
 
 ## Handlers
 
